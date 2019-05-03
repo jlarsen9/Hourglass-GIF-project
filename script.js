@@ -4,8 +4,6 @@ button.innerHTML = "CHANGE IMAGE";
 
 
 
-button.addEventListener('click', printHello());
-
 function changeImage() {
     var imageSrc = document.getElementById("image").getAttribute("src");
     var currentImageNumber = imageSrc.substring(imageSrc.lastIndexOf("/") + 1, imageSrc.lastIndexOf("/") + 2);
@@ -13,6 +11,8 @@ function changeImage() {
     document.getElementById("image").setAttribute("src", newImage);
     document.getElementById("result").innerHTML = newImage;
 }
+
+button.addEventListener('click', changeImage());
 //document.querySelector(button).addEventListener('click', changeImage());
 
 
