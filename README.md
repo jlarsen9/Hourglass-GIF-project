@@ -1,5 +1,5 @@
-<!--hourglass animation, and after a certain amount of time 
+Hourglass animation: After a certain amount of time 
 it's going to flip and go the other way!! 
--->
+
 
 
